@@ -1,7 +1,7 @@
 [
     {
         "id": "flix",
-        "titulo": "Plataforma OTT - Flix",
+        "titulo": "Flix - Plataforma OTT",
         "descripcion": "Plataforma de streaming de películas y series con gestión de suscripciones, catálogo en tiempo real y recomendaciones personalizadas en base a la región y gustos del usuario.",
         "imagen": "./assets/projects/flix.png",
         "categoria": "Software Architecture",
@@ -50,5 +50,25 @@
             "codigo": "https://github.com/EmanuelGarciaR/server-scheduling"
         },
         "destacado": true
+    },
+    {
+        "id": "chatbot-ia-u",
+        "titulo": "Chatbot IA para U - Asistente de la Universidad de Medellín",
+        "descripcion": "Chatbot con información de la Universidad de Medellín para resolver dudas de estudiantes y visitantes. Este proyecto se desarrollo en la materia de Fundamentos y diseño de Software con el objetivo de brindar una herramienta de información para los estudiantes de la universidad.",
+        "imagen": "./assets/projects/chatbot_ia_u.png",
+        "categoria": "Software Architecture",
+        "tecnologias": [
+            "Next.js",
+            "Python",
+            "FastAPI",
+            "SQLAlchemy",
+            "Tailwind",
+            "Supabase"
+        ],
+        "enlaces": {
+            "demo": null,
+            "codigo": "https://github.com/sanma613/chatbot-ia"
+        },
+        "destacado": false
     }
 ]
