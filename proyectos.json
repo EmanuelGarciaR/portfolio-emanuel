@@ -1,0 +1,54 @@
+[
+    {
+        "id": "flix",
+        "titulo": "Plataforma OTT - Flix",
+        "descripcion": "Plataforma de streaming de películas y series con gestión de suscripciones, catálogo en tiempo real y recomendaciones personalizadas en base a la región y gustos del usuario.",
+        "imagen": "./assets/projects/flix.png",
+        "categoria": "Software Architecture",
+        "tecnologias": [
+            "Next.js",
+            "Supabase",
+            "TMDBB API",
+            "Trackt API"
+        ],
+        "enlaces": {
+            "demo": "https://flix-rouge.vercel.app/home",
+            "codigo": "https://github.com/EmanuelGarciaR/flix"
+        },
+        "destacado": true
+    },
+    {
+        "id": "ecohome",
+        "titulo": "EcoHome - Gestión de consumo energético",
+        "descripcion": "MVP de una plataforma para brindarle a los usuarios información de valor sobre su consumo energético y que medidas pueden adoptar para ahorrar más. Envío de reportes automatizados al correo y consejos de ahorro en base a los intereses del usuario",
+        "imagen": "./assets/projects/ecohome.png",
+        "categoria": "Data Engineering",
+        "tecnologias": [
+            "Python",
+            "MQTT",
+            "Next.js",
+            "Supabase"
+        ],
+        "enlaces": {
+            "demo": null,
+            "codigo": "https://github.com/EmanuelGarciaR/EcoHome"
+        },
+        "destacado": false
+    },
+    {
+        "id": "cargas-servidor",
+        "titulo": "Simualdor de balanceador de cargas en múltiples servidores",
+        "descripcion": "Proyecto de Análisis y diseño de algoritmos donde se simula el balanceo de cargas en múltiples servidores con diferentes algoritmos y se compara el desempeño de cada uno.",
+        "imagen": "./assets/projects/simulador_cargas_servidor.png",
+        "categoria": "Data Engineering",
+        "tecnologias": [
+            "Python",
+            "Next.js"
+        ],
+        "enlaces": {
+            "demo": "https://dazzling-elf-93cbf5.netlify.app/",
+            "codigo": "https://github.com/EmanuelGarciaR/server-scheduling"
+        },
+        "destacado": true
+    }
+]
