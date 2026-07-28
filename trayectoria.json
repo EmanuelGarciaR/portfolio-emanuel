@@ -1,0 +1,37 @@
+[
+    {
+        "id": "bachillerato",
+        "titulo": "Bachillerato",
+        "descripcion": "Realicé mis estudios de secundaria en la Institución Educativa República de Honduras",
+        "logros": ["Premio al mejor bachiller", "Premio al mejor puntaje ICFES", "Representación en el consurso nacional de programación"],
+        "fecha": "2023 - 11 - 18"
+    },
+    {
+        "id": "media-tecnica",
+        "titulo": "Media técnica - Desarrollo de Software",
+        "descripcion": "Realicé mis estudios de secundaria en la Institución Educativa República de Honduras",
+        "logros": ["Premio al mejor bachiller", "Premio al mejor puntaje ICFES", "Representación en el consurso nacional de programación"],
+        "fecha": "2023 - 11 - 18"
+    },
+    {
+        "id": "arroba-medellin",
+        "titulo": "@Medellín",
+        "descripcion": "Me inscribí en el programa de la alcaldía @Medellín donde presentan cursos de la industria 4.0. Inicialmente me inscribí en Análisis de datos y Programación de Videojuegos",
+        "logros": ["Certificado habilidades industra 4.0", "Certificado en análisis de datos", "Certificado en programación de videojuegos"],
+        "fecha": "2023 - 12 - 4"
+    },
+    {
+        "id": "fundacion-rofe",
+        "titulo": "Fundación ROFÉ - Toca una vida",
+        "descripcion": "Ingresé a la fundación ROFÉ en una convocatoria nacional. En la fundación aprendí habilidades blandas, habilidades de emprendimiento y programación web. Al finalizar se presentó la oportunidad de ser monitor en la fundación. Mi rol fue ser líder del grupo G12 en Medellín. A su vez, como soporte en la página de la universidad",
+        "logros": ["Certificado en habilidades blandas", "Certificado en programación web", "Certificado en emprendimiento"],
+        "fecha": "2024 - 6 - 14" 
+    },
+    {
+        "id": "u-training",
+        "titulo": "UTraining - Ciberseguridad",
+        "descripcion": "Curso de 352 horas de Ciberseguridad. Se realizó un proyecto simulando la infraestructura de redes de un hospital, al cual debíamos mejorarlo",
+        "logros": ["Certificado en Ciberseguridad - 352 horas"],
+        "fecha": "2025 - 11 - 8" 
+    }
+]

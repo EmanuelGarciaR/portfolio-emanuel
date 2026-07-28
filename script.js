@@ -41,7 +41,7 @@ function renderizarProyectos(proyectos, contenedor) {
 const techIcons = {
     "Next.js": "https://cdn.simpleicons.org/nextdotjs/white",
     "Supabase": "https://cdn.simpleicons.org/supabase/3ECF8E",
-    "TMDBB API": "https://cdn.simpleicons.org/themoviedatabase/01B4E4",
+    "TMDB(B API": "https://cdn.simpleicons.org/themoviedatabase/01B4E4",
     "Trackt API": "https://cdn.simpleicons.org/trakt/ED1C24",
     "Python": "https://cdn.simpleicons.org/python/3776AB",
     "MQTT": "https://cdn.simpleicons.org/mqtt/660066",
