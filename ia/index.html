@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hoja de Vida - Emanuel García</title>
+  <title>Portfolio - Emanuel García</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <main class="cv">
     <aside class="sidebar">
       <figure class="profile-photo">
-        <img
-          src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'><rect width='240' height='240' rx='120' fill='%23d9e2ec'/><circle cx='120' cy='92' r='42' fill='%2390a4b7'/><path d='M52 214c10-42 42-66 68-66s58 24 68 66' fill='%2390a4b7'/></svg>"
-          alt="Foto de perfil de Emanuel García"
-        >
+        <img src="../assets/other/RostroEmanuel_recortado.png" alt="Fotografía de Emanuel García">
       </figure>
 
       <section class="card">
-        <h2>Contacto</h2>
-        <ul class="contact-list">
-          <li><strong>Correo:</strong> <a href="mailto:emanuel@gmail.com">emanuel@gmail.com</a></li>
-          <li><strong>Celular:</strong> <a href="tel:+573001112233">+57 300 111 2233</a></li>
-        </ul>
+        <h2>Sobre mí</h2>
+        <p>
+          Mi interés por la tecnología comenzó en décimo grado y evolucionó hacia un enfoque donde la
+          creatividad y la programación se complementan. Estos dos aspectos me permiten abordar los
+          problemas desde un ángulo integral.
+        </p>
       </section>
 
       <section class="card">
-        <h2>Redes Sociales</h2>
-        <ul class="social-list">
-          <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
-          <li><a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a></li>
-          <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+        <h2>Enfoques</h2>
+        <ul class="cert-list">
+          <li>Software Architecture</li>
+          <li>Cloud Architecture</li>
+          <li>Data Engineering</li>
         </ul>
       </section>
     </aside>
@@ -37,59 +37,117 @@
     <section class="content">
       <header class="hero card">
         <h1>Emanuel García</h1>
-        <p class="subtitle">Estudiante de Sistemas | Desarrollo Web Básico</p>
+        <p class="subtitle">Software Developer</p>
       </header>
 
       <section class="card">
-        <h2>Perfil</h2>
-        <p>
-          Soy estudiante de sistemas con interés en el desarrollo web. Me enfoco en aprender
-          HTML, CSS y buenas prácticas de estructura para crear páginas claras, funcionales y
-          fáciles de mantener.
-        </p>
+        <h2>Trayectoria</h2>
+
+        <article class="item">
+          <h3>Bachillerato</h3>
+          <p class="meta">2023 - 11 - 18</p>
+          <p>Realicé mis estudios de secundaria en la Institución Educativa República de Honduras.</p>
+          <p>Logros: Premio al mejor bachiller, Premio al mejor puntaje ICFES y representación en el concurso nacional de programación.</p>
+        </article>
+
+        <article class="item">
+          <h3>Media técnica - Desarrollo de Software</h3>
+          <p class="meta">2023 - 11 - 18</p>
+          <p>Realicé mis estudios de secundaria en la Institución Educativa República de Honduras.</p>
+          <p>Logros: Premio al mejor bachiller, Premio al mejor puntaje ICFES y representación en el concurso nacional de programación.</p>
+        </article>
+
+        <article class="item">
+          <h3>@Medellín</h3>
+          <p class="meta">2023 - 12 - 4</p>
+          <p>
+            Me inscribí en el programa de la alcaldía @Medellín donde presentan cursos de la industria 4.0.
+            Inicialmente me inscribí en Análisis de datos y Programación de Videojuegos.
+          </p>
+          <p>Logros: Certificado habilidades industra 4.0, Certificado en análisis de datos y Certificado en programación de videojuegos.</p>
+        </article>
+
+        <article class="item">
+          <h3>Fundación ROFÉ - Toca una vida</h3>
+          <p class="meta">2024 - 6 - 14</p>
+          <p>
+            Ingresé a la fundación ROFÉ en una convocatoria nacional. Aprendí habilidades blandas,
+            habilidades de emprendimiento y programación web. Al finalizar se presentó la oportunidad
+            de ser monitor en la fundación.
+          </p>
+          <p>Logros: Certificado en habilidades blandas, Certificado en programación web y Certificado en emprendimiento.</p>
+        </article>
+
+        <article class="item">
+          <h3>UTraining - Ciberseguridad</h3>
+          <p class="meta">2025 - 11 - 8</p>
+          <p>
+            Curso de 352 horas de Ciberseguridad. Se realizó un proyecto simulando la infraestructura
+            de redes de un hospital, al cual debíamos mejorarlo.
+          </p>
+          <p>Logros: Certificado en Ciberseguridad - 352 horas.</p>
+        </article>
       </section>
 
       <section class="card">
-        <h2>Experiencia Laboral</h2>
+        <h2>Proyectos</h2>
+
         <article class="item">
-          <h3>Auxiliar de soporte técnico</h3>
-          <p class="meta">Empresa Tech SAS | 2025 - Actualidad</p>
+          <h3>Flix - Plataforma OTT</h3>
+          <p class="meta">Software Architecture</p>
           <p>
-            Apoyo en mantenimiento básico de equipos, instalación de software y atención a
-            usuarios con incidencias simples.
+            Plataforma de streaming de películas y series con gestión de suscripciones, catálogo en
+            tiempo real y recomendaciones personalizadas en base a la región y gustos del usuario.
+          </p>
+          <p>Tecnologías: Next.js, Supabase, TMDBB API y Trackt API.</p>
+          <p>
+            Enlaces: <a href="https://flix-rouge.vercel.app/home" target="_blank" rel="noreferrer">Demo</a>
+            | <a href="https://github.com/EmanuelGarciaR/flix" target="_blank" rel="noreferrer">Código</a>
           </p>
         </article>
+
         <article class="item">
-          <h3>Practicante en desarrollo web</h3>
-          <p class="meta">Proyecto académico | 2024</p>
+          <h3>EcoHome - Gestión de consumo energético</h3>
+          <p class="meta">Data Engineering</p>
           <p>
-            Elaboración de interfaces sencillas con HTML y CSS, organizando contenido por
-            secciones y aplicando estilos básicos.
+            MVP de una plataforma para brindarle a los usuarios información de valor sobre su consumo energético
+            y qué medidas pueden adoptar para ahorrar más. Incluye envío de reportes automatizados al correo y consejos de ahorro.
+          </p>
+          <p>Tecnologías: Python, MQTT, Next.js y Supabase.</p>
+          <p>
+            Enlaces: <a href="https://github.com/EmanuelGarciaR/EcoHome" target="_blank" rel="noreferrer">Código</a>
           </p>
         </article>
-      </section>
 
-      <section class="card">
-        <h2>Educación</h2>
         <article class="item">
-          <h3>Tecnología en Sistemas</h3>
-          <p class="meta">Institución Educativa XYZ | En curso</p>
+          <h3>Simulador de balanceador de cargas en múltiples servidores</h3>
+          <p class="meta">Data Engineering</p>
+          <p>
+            Proyecto de Análisis y diseño de algoritmos donde se simula el balanceo de cargas en múltiples
+            servidores con diferentes algoritmos y se compara el desempeño de cada uno.
+          </p>
+          <p>Tecnologías: Python y Next.js.</p>
+          <p>
+            Enlaces: <a href="https://dazzling-elf-93cbf5.netlify.app/" target="_blank" rel="noreferrer">Demo</a>
+            | <a href="https://github.com/EmanuelGarciaR/server-scheduling" target="_blank" rel="noreferrer">Código</a>
+          </p>
         </article>
-        <article class="item">
-          <h3>Bachiller Académico</h3>
-          <p class="meta">Colegio ABC | 2023</p>
-        </article>
-      </section>
 
-      <section class="card">
-        <h2>Certificaciones</h2>
-        <ul class="cert-list">
-          <li>Fundamentos de HTML y CSS</li>
-          <li>Introducción a la programación</li>
-          <li>Servicio al cliente</li>
-        </ul>
+        <article class="item">
+          <h3>Chatbot IA para U - Asistente de la Universidad de Medellín</h3>
+          <p class="meta">Software Architecture</p>
+          <p>
+            Chatbot con información de la Universidad de Medellín para resolver dudas de estudiantes y visitantes.
+            Este proyecto se desarrolló en la materia de Fundamentos y diseño de Software.
+          </p>
+          <p>Tecnologías: Next.js, Python, FastAPI, SQLAlchemy, Tailwind y Supabase.</p>
+          <p>
+            Enlaces: <a href="https://github.com/sanma613/chatbot-ia" target="_blank" rel="noreferrer">Código</a>
+          </p>
+        </article>
       </section>
     </section>
   </main>
 </body>
+
 </html>
