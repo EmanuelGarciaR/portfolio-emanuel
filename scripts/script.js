@@ -10,9 +10,9 @@ navLinks.forEach(link => {
 });
 
 const PROJECTS_GRID_SELECTOR = '#projects-grid';
-const PROJECTS_JSON_PATH = './proyectos.json';
+const PROJECTS_JSON_PATH = './data/proyectos.json';
 const TIMELINE_LIST_SELECTOR = '#timeline-list';
-const TIMELINE_JSON_PATH = './trayectoria.json';
+const TIMELINE_JSON_PATH = './data/trayectoria.json';
 
 async function cargarProyectos() {
     const grid = document.querySelector(PROJECTS_GRID_SELECTOR);
